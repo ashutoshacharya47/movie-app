@@ -18,3 +18,7 @@ A simple movie search web application where users can search for movies and view
 - CSS
 - JavaScript
 - Movie API (TMDb)
+
+# 🌐 Live Demo
+
+https://ashutoshacharya47.github.io/movie-app/
