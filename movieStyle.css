@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+.top {
+    height: 35rem;
+    width: 100%;
+    background-color: rgb(98, 192, 230);
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    overflow: hidden;
+}
+
+#trailer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 100%;
+    height: 100%;
+
+    border: none;
+    transform: translate(-50%, -50%) scale(2.6);
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+    pointer-events: none;
+}
+
+.movieContent{
+    position: relative;
+    z-index: 3;
+    color: aliceblue;
+
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    gap: 2rem;
+    padding-left: 5rem;
+
+    /* lets clicks pass through to video */
+}
+
+#WatchBtn{
+    margin-top: 7rem;
+    height: 3rem;
+    width: 10rem;
+    background-color: rgb(250, 191, 28);
+    border-radius: 0.3rem;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+
+.movieImg {
+    height: 30rem;
+    width: 18rem;
+    margin-left: 5rem;
+    background-color: rgb(223, 194, 33);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movieImg img{
+    height: 98%;
+    width: 98%;
+    border-radius: 5px;
+}
+
+#mDetails {
+    margin-left: 2rem;
+    align-self: flex-start;
+    margin-top: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#mDetails h2 {
+    font-size: xxx-large;
+}
+
+#mDetails p {
+    font-size: large;
+    margin-top: 1rem;
+}
+
+.bottom {
+    height: 100rem;
+    width: 100%;
+    background-color: rgb(39, 27, 27);
+}
